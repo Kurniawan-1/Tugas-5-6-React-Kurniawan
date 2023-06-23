@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+
+#root {
+  width: 100%;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  background-color: rgb(44, 44, 145);
+  color: #fff;
+  align-items: center
+}
+
+body header>.logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: large;
+  font-weight: 750
+}
+
+body main {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  justify-content: center;
+  align-items: flex-start
+}
+
+body .card {
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 10px
+}
+
+body form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+body form div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between
+}
+
+body button {
+  background-color: rgb(68, 68, 192);
+  color: #fff;
+  height: 36px;
+  padding-inline: 18px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  min-width: 96px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px
+}
+
+body button:hover {
+  background-color: rgb(24, 24, 141)
+}
